@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--primary);
+}
+.container-fluid {
+  background-color: var(--primary);
+}
+
+:root {
+  --border: 2px solid black;
+  --primary: #172937;
+  --secondary: #253644;
+}
+
+#avatar img {
+  width: 50%;
+}
+.box {
+  height: 300px;
+  width: 300px;
+}
+
+@media (min-width:768px) {
+    #left-section{
+        position: sticky;
+        top: 0;
+    }
+}
+.name {
+  font-weight: 900;
+}
+
+#left-section-in {
+  background-color: var(--secondary);
+}
+.details img {
+  max-width: 50px;
+}
+
+.box-in img {
+  max-width: 100%;
+  height: auto;
+}
+.box,
+.aboutme {
+  font-size: 20px;
+}
+@media (max-width: 1050px) {
+  .box,
+  .aboutme {
+    font-size: 16px;
+  }
+}
+iframe {
+  max-height: 200px;
+}
+.linkedin img {
+  max-height: 200px;
+}
+
+.right-part {
+  background-color: var(--secondary);
+}
+.box .row {
+  background-color: var(--primary);
+}
+
+.social-links img{
+    width: 50px;
+}
