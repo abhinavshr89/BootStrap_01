@@ -26,7 +26,7 @@ body {
 
 
 @media (min-width: 768px) {
-  #left-section {
+  #side-bar {
     position: sticky;
     top: 0;
   }
@@ -35,7 +35,7 @@ body {
   font-weight: 900;
 }
 
-#left-section-in {
+#side-bar-in{
   background-color: var(--secondary);
 }
 .details img {
@@ -49,13 +49,14 @@ body {
 .box,
 .aboutme {
   font-size: 20px;
+
 }
 @media (max-width: 1050px) {
   .box,
   .aboutme {
     font-size: 16px;
   }
-  #left-section p {
+  #side-bar p {
     font-size: 12px;
   }
 }
