@@ -24,8 +24,8 @@ body {
   width: 50%;
 }
 .box {
-  height: 300px;
-  width: 300px;
+  /* height: 300px;
+  width: 300px; */
 }
 
 @media (min-width: 768px) {
@@ -92,6 +92,10 @@ iframe {
   .year {
     font-size: 10px;
   }
+  .box,
+  .aboutme {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -106,7 +110,7 @@ iframe {
   }
 }
 div {
- 
+ border: var(--border);
 }
 
 
