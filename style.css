@@ -23,10 +23,7 @@ body {
 #avatar img {
   width: 50%;
 }
-.box {
-  /* height: 300px;
-  width: 300px; */
-}
+
 
 @media (min-width: 768px) {
   #left-section {
@@ -109,8 +106,8 @@ iframe {
     font-size: 10px;
   }
 }
-div {
+/* div {
  border: var(--border);
-}
+} */
 
 
