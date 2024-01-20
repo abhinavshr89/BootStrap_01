@@ -45,6 +45,7 @@ body {
 .box-in img {
   max-width: 100%;
   height: auto;
+  min-width: 30px;
  
 }
 .box,
@@ -98,6 +99,7 @@ iframe {
   }
   .box-in img {
     max-width: 130%;
+
     height: auto;
    
   }
