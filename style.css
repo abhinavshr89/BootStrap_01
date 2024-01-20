@@ -15,7 +15,7 @@ body {
 }
 
 :root {
-  --border: 2px solid black;
+  /* --border: 2px solid black; */
   --primary: #172937;
   --secondary: #253644;
 }
@@ -106,8 +106,6 @@ iframe {
     font-size: 10px;
   }
 }
-/* div {
- border: var(--border);
-} */
+
 
 
