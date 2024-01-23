@@ -70,16 +70,23 @@ body {
   border-radius: 20px;
 width: 100%;
 height: 100%;
-min-height: 175px;
-
+min-height: 200px;
+/* border: 2px solid red; */
 }
+
 .YouTube{
   border-radius: 20px;
   width: 100%;
   height: 100%;
 
   overflow: hidden;
-  min-height: 175px;
+  min-height: 200px;
+
+}
+.YouTube iframe , .linkedin img {
+  min-width: 100% ;
+  max-height: 200px;
+  border-radius: 30px;
 }
 .testimonial-heading {
   font-weight: 700px;
