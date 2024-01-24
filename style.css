@@ -77,7 +77,7 @@ font-weight: 800;
 .container-fluid {
   color: white;
 }
-.right-part{
+.main-content{
   border-radius: 20px;
 }
 .box-headings{
@@ -132,7 +132,7 @@ min-height: 200px;
   }
 }
 
-.right-part {
+.main-content {
   background-color: var(--secondary);
 }
 .box .row {
