@@ -6,12 +6,14 @@
 }
 html,
 body {
+
   height: 100%;
   width: 100%;
   background-color: var(--primary);
 }
 .container-fluid {
   background-color: var(--primary);
+  color: white;
 
 }
 
@@ -70,7 +72,7 @@ font-weight: 800;
   font-size: 20px;
   text-align: left;
 }
-.container-fluid {
+.container {
   color:var(--white);
 }
 .main-content{
