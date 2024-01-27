@@ -74,10 +74,13 @@ font-weight: 800;
   
 }
 
-.box,
-.aboutme {
-  font-size: 20px;
+.box {
+  font-size: 13px;
   text-align: left;
+
+}
+.aboutme{
+  font-size: 16px;
 }
 .container {
   color:var(--white);
@@ -98,7 +101,8 @@ font-weight: 800;
 }
 
 .wid-box{
-  
+  min-height: 200px;
+  max-height: auto;
   border-radius: 20px;
   
 }
@@ -126,7 +130,7 @@ font-weight: 800;
 @media (max-width: 1050px) {
   .box,
   .aboutme {
-    font-size: 16px;
+    font-size: 12px;
   }
   .box-headings{
     font-size: 20px;
@@ -192,8 +196,8 @@ font-weight: 800;
 .row {
   display: flex;
 }
-.testimonial-heading{
-  font-weight: 500;
+.testimonial-heading,.heading-text2{
+  font-weight: 700;
 }
 .testimonial-content{
 
@@ -233,4 +237,21 @@ h4 {
 
 
   }
+}
+
+
+
+
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:transparent; /* Set the thumb color to transparent */
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Set the track color to transparent */
 }
