@@ -6,7 +6,6 @@
 }
 html,
 body {
-
   height: 100%;
   width: 100%;
   background-color: var(--primary);
@@ -14,19 +13,16 @@ body {
 .container-fluid {
   background-color: var(--primary);
   color: var(--white);
-;
-
 }
 /* article{
   border: 2px solid black;
 } */
 
 :root {
-
   --primary: #172937;
   --secondary: #253644;
-  --heading:#F16F21;
-  --white :white;
+  --heading: #f16f21;
+  --white: white;
 }
 
 #avatar img {
@@ -35,20 +31,20 @@ body {
 /* -----------------Heading text css  */
 
 .heading-text {
-padding-bottom: 5px;
-font-weight: 800;
+  padding-bottom: 5px;
+  font-weight: 800;
 }
 
 .heading-text::after {
   content: "";
-  background-color:var(--heading);
+  background-color: var(--heading);
   display: block;
   margin-top: 10px;
-  height: 4px; 
+  height: 4px;
   width: 7%;
   border-radius: 10px;
 }
-.heading-text2{
+.heading-text2 {
   font-weight: 600;
 }
 .name {
@@ -62,7 +58,7 @@ font-weight: 800;
 .details img {
   max-width: 40px;
 }
-.details{
+.details {
   font-size: 12px;
 }
 
@@ -70,25 +66,22 @@ font-weight: 800;
   max-width: 100%;
   height: auto;
   min-width: 30px;
-  
-  
 }
 
 .box {
   font-size: 13px;
   text-align: left;
-
 }
-.aboutme{
+.aboutme {
   font-size: 16px;
 }
 .container {
-  color:var(--white);
+  color: var(--white);
 }
-.main-content{
+.main-content {
   border-radius: 20px;
 }
-.box-headings{
+.box-headings {
   font-weight: 800;
   padding-top: 7px;
 }
@@ -100,11 +93,10 @@ font-weight: 800;
   font-size: 10px;
 }
 
-.wid-box{
+.wid-box {
   min-height: 200px;
   max-height: auto;
   border-radius: 20px;
-  
 }
 .main-content {
   background-color: var(--secondary);
@@ -115,7 +107,7 @@ font-weight: 800;
 
 .social-links img {
   width: 50px;
-  
+
   padding: 7px;
 }
 /* -------------------------------------------media queries */
@@ -124,15 +116,20 @@ font-weight: 800;
     position: sticky;
     top: 0;
   }
+  
+.testimonial-box-youtube {
 
+  width: 106%;
 
+  height: 300px;
+}
 }
 @media (max-width: 1050px) {
   .box,
   .aboutme {
     font-size: 12px;
   }
-  .box-headings{
+  .box-headings {
     font-size: 20px;
   }
   #side-bar p {
@@ -143,9 +140,7 @@ font-weight: 800;
   }
   .details img {
     max-width: 40px;
- 
   }
- 
 }
 @media (max-width: 600px) {
   .social-links img {
@@ -157,7 +152,7 @@ font-weight: 800;
   .details h6 {
     font-size: 12px;
   }
-  .box-headings{
+  .box-headings {
     font-size: 14px;
   }
   .year-info {
@@ -172,7 +167,6 @@ font-weight: 800;
 
     height: auto;
   }
-  
 }
 
 @media (max-width: 450px) {
@@ -184,64 +178,20 @@ font-weight: 800;
   }
   .year-info {
     font-size: 10px;
-    
   }
-  
 }
-
 
 /* ====================footer */
 
-
-.row {
-  display: flex;
-}
-.testimonial-heading,.heading-text2{
-  font-weight: 700;
-}
-.testimonial-content{
-
-display: flex;
-justify-content: space-around;
-align-items: center;
-}
-.testimonial-box {
-  height: 300px; /* Adjust the height as needed */
+footer .box {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-
-  border-radius: 25px;
-  background-color: var(--primary);
 }
 
-.testimonial-box img,
-.testimonial-box iframe {
-  width: 100%;
-  height: 90%;
-  border-radius: 20px;
-  
+img,
+iframe {
+  box-sizing: border-box;
 }
-
-h4 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 450px) {
-  .testimonial-box {
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-
-  }
-}
-
-
-
-
 
 /* For WebKit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
@@ -249,9 +199,18 @@ h4 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color:transparent; /* Set the thumb color to transparent */
+  background-color: transparent; /* Set the thumb color to transparent */
 }
 
 ::-webkit-scrollbar-track {
   background-color: transparent; /* Set the track color to transparent */
+}
+
+
+
+.testimonial-box-youtube {
+
+  width: 106%;
+  height: 90%;
+
 }
